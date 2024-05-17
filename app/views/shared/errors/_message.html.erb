@@ -1,0 +1,7 @@
+<%= turbo_frame_tag 'error_message' do %>
+  <% unless error_message.blank? %>
+    <div class="alert alert-danger p-3 border border-primary-subtle rounded-3">
+      <%= error_message %>
+    </div>
+  <% end %>
+<% end %>
