@@ -1,0 +1,8 @@
+<% if @dog_service.success %>
+  <%= turbo_stream.update 'breed_info', partial: 'shared/breed/info', locals: { image_url: @image_url, breed: @breed.join(' ') } %>
+  <%= turbo_stream.replace 'error_message', partial: 'shared/errors/message', locals: { error_message: '' } %>
+<% else %>
+  <%= turbo_stream.update 'error_message', partial: 'shared/errors/message', locals: { error_message: @message } %>
+<% end %>
+
+<%= turbo_stream.update 'breedForm', partial: 'shared/breed/form' %>

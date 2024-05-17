@@ -1,0 +1,9 @@
+<span data-controller='breed'>
+  <%= form_tag(breed_fetch_path, method: :post) do %>
+    <div class="mb-3">
+      <%= label_tag "breedInput", "Breed", class: "form-label" %>
+      <%= text_field_tag "breedInput", nil, class: "form-control", id: "breedInput", placeholder: 'Enter Dog Breed...' %>
+    </div>
+    <%= submit_tag "Submit", class: "btn btn-primary", data: { action: "click->breed#resetForm" }, id: 'breedSubmitButton', disabled: true %>
+  <% end %>
+</span>
