@@ -3,8 +3,8 @@
 ## Description
 
 This Project is a ProtoType to demo single page web application on rails framework. 
-![screenshot](![image](https://github.com/abdulkhaliqdev/Dog-Breed-generator/assets/70257073/32e1ee0e-d6a1-43b1-b988-8f1ee6fd4554))
-![screenshot](![image](https://github.com/abdulkhaliqdev/Dog-Breed-generator/assets/70257073/d4352538-9ed6-4103-81fd-217a148648d9))
+![image](https://github.com/abdulkhaliqdev/Dog-Breed-generator/assets/70257073/32e1ee0e-d6a1-43b1-b988-8f1ee6fd4554)
+![image](https://github.com/abdulkhaliqdev/Dog-Breed-generator/assets/70257073/d4352538-9ed6-4103-81fd-217a148648d9)
 
 ## Built With
 
