@@ -1,25 +1,51 @@
-# README
+# Dog Image Gerenator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+This Project is a ProtoType to demo single page web application on rails framework. 
+![screenshot](![image](https://github.com/abdulkhaliqdev/Dog-Breed-generator/assets/70257073/32e1ee0e-d6a1-43b1-b988-8f1ee6fd4554))
+![screenshot](![image](https://github.com/abdulkhaliqdev/Dog-Breed-generator/assets/70257073/d4352538-9ed6-4103-81fd-217a148648d9))
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby 3
+- Rails 7
+- Bootstrap 5
+- Stimulus
+- Turbo
+- HotWire
+- Pry (debugger)
+- Rvm
 
-* Configuration
+### Prerequisites
 
-* Database creation
+- Ruby 3
+- Rails 7
+- A terminal
 
-* Database initialization
+### Installation
 
-* How to run the test suite
+- From the project's root directory execute 'bundle install' to install the necessary gems:
+```
+bundle install
+```
+- Run Project
+```
+./bin/dev
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+👨‍💻 **Abdul Khaliq**
 
-* ...
-# Dog-Breed-generator
+- Github: [@abdulkhaliqdev](https://github.com/abdulkhaliqdev)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-khaliq-89452b1a9/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/abdulkhaliqdev/Dog-Breed-generator/issues)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
